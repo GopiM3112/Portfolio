@@ -21,8 +21,23 @@ export const PROJECTS = [
     description:"The project consists of two modules: ADMIN and USER. An admin can register as an administrator and log in to the application. Upon entering the correct credentials, the admin is redirected to the admin login page. Invalid login attempts are prevented by checking the stored data in the database. After logging in, the admin can add songs, view songs, add playlists, and view playlists. The admin can establish a many-to-many relationship between songs and playlists to enhance efficiency. A user can register into the application. Upon registration, they can log in to hear songs only if they are a premium user. If not, the user is prompted to purchase a premium membership to access the songs. Duplicate user registrations are prevented by checking the email ID of the user. During login, the user must enter the correct email ID and password. If the credentials match those stored in the database, the user is permitted to log in. Otherwise, it's considered an invalid login, and the user is redirected to the login page. Once successfully registered, the user can listen to songs. If the user is not a premium member, they are directed to purchase a premium subscription via Razorpay",
     technologies: ["HTML", "CSS", "React", "javascript", "Java","Sql"],
     link: "https://tunehub3112.netlify.app" // Add your project link here
-  }
+  },
+  {
+    title: "TO-DO-LIST",
+    description: "I have completed a TO-DO-LIST project using HTML, CSS, and React.js. The app features a user-friendly interface, dynamic updates, and responsive design, showcasing my front-end development skills.",
+    image: "src/assets/projects/todolist.png" ,
+    technologies: ["React.js", "HTML", "CSS"],
+    link: "https://to-do-list3112.netlify.app"
+  },
+  {
+    title: "TIC TAC TOE GAME",
+    description: "TIC TAC TOE GAME project using HTML, CSS, and React.js. The project showcases a dynamic and interactive game interface with responsive design, demonstrating my expertise in modern web technologies.",
+    image: "src/assets/projects/game xox.png",
+    technologies: ["React.js", "HTML", "CSS"],
+    link: "https://tictactoe-xox-game.netlify.app"
+  },
 ];
+
 
 export const CONTACT = {
   address: "Vellore, Tamilnadu",
