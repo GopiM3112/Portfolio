@@ -25,14 +25,14 @@ export const PROJECTS = [
   {
     title: "TO-DO-LIST",
     description: "I have completed a TO-DO-LIST project using HTML, CSS, and React.js. The app features a user-friendly interface, dynamic updates, and responsive design, showcasing my front-end development skills.",
-    image: "src/assets/todolist.png" ,
+    image: "src/assets/projects/todolist.png" ,
     technologies: ["React.js", "HTML", "CSS"],
     link: "https://to-do-list3112.netlify.app"
   },
   {
     title: "TIC TAC TOE GAME",
     description: "TIC TAC TOE GAME project using HTML, CSS, and React.js. The project showcases a dynamic and interactive game interface with responsive design, demonstrating my expertise in modern web technologies.",
-    image: "src/assets/game xox.png",
+    image: "src/assets/projects/game xox.png",
     technologies: ["React.js", "HTML", "CSS"],
     link: "https://tictactoe-xox-game.netlify.app"
   },
