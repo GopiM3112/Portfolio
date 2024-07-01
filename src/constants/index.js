@@ -23,14 +23,14 @@ export const PROJECTS = [
     link: "https://tunehub3112.netlify.app" // Add your project link here
   },
   {
-    title: "TO-DO-LIST",
+    title: "TO-DO-LIST | Mini-Project",
     description: "I have completed a TO-DO-LIST project using HTML, CSS, and React.js. The app features a user-friendly interface, dynamic updates, and responsive design, showcasing my front-end development skills.",
     image: "src/assets/projects/todolist.png" ,
     technologies: ["React.js", "HTML", "CSS"],
     link: "https://to-do-list3112.netlify.app"
   },
   {
-    title: "TIC TAC TOE GAME",
+    title: "TIC TAC TOE GAME | Mini-Project",
     description: "TIC TAC TOE GAME project using HTML, CSS, and React.js. The project showcases a dynamic and interactive game interface with responsive design, demonstrating my expertise in modern web technologies.",
     image: "src/assets/projects/game xox.png",
     technologies: ["React.js", "HTML", "CSS"],
