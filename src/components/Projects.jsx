@@ -55,13 +55,7 @@ const Projects = () => {
                   View Project
                 </a>
               )}
-              <img
-                src={project.image}
-                width={150}
-                height={150}
-                alt={project.title}
-                className="mb-6 rounded"
-              />
+              
             </motion.div>
           </div>
         ))}

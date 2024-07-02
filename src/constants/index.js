@@ -1,4 +1,6 @@
 import project1 from "../assets/projects/project.png";
+import project2 from "../assets/projects/todolist.png";
+import project3 from "../assets/projects/game xox.png";
 
 export const HERO_CONTENT = `I am a dedicated and versatile full stack developer, passionate about building efficient and user-friendly web applications. With 5 years of professional experience, I have expertise in various technologies, including React, MySQL, PostgreSQL, and Java Spring Boot. My journey in web development started with a deep curiosity about how things work, evolving into a career focused on continuous learning and adapting to new challenges. I excel in collaborative environments, enjoying the process of solving complex problems to deliver high-quality solutions. Beyond coding, I stay active, explore new technologies, and contribute to open-source projects`;
 
@@ -24,15 +26,15 @@ export const PROJECTS = [
   },
   {
     title: "TO-DO-LIST | Mini-Project",
+    image: project2 ,
     description: "I have completed a TO-DO-LIST project using HTML, CSS, and React.js. The app features a user-friendly interface, dynamic updates, and responsive design, showcasing my front-end development skills.",
-    image: "src/assets/projects/todolist.png" ,
     technologies: ["React.js", "HTML", "CSS"],
     link: "https://to-do-list3112.netlify.app"
   },
   {
     title: "TIC TAC TOE GAME | Mini-Project",
+    image: project3,
     description: "TIC TAC TOE GAME project using HTML, CSS, and React.js. The project showcases a dynamic and interactive game interface with responsive design, demonstrating my expertise in modern web technologies.",
-    image: "src/assets/projects/game xox.png",
     technologies: ["React.js", "HTML", "CSS"],
     link: "https://tictactoe-xox-game.netlify.app"
   },
