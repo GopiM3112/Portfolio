@@ -1,6 +1,7 @@
 import project1 from "../assets/projects/project.png";
 import project2 from "../assets/projects/todolist.png";
 import project3 from "../assets/projects/game xox.png";
+import project4 from "../assets/projects/PodWave_AI.png";
 
 export const HERO_CONTENT = `I am a dedicated and versatile full stack developer, passionate about building efficient and user-friendly web applications. With 5 years of professional experience, I have expertise in various technologies, including React, MySQL, PostgreSQL, and Java Spring Boot. My journey in web development started with a deep curiosity about how things work, evolving into a career focused on continuous learning and adapting to new challenges. I excel in collaborative environments, enjoying the process of solving complex problems to deliver high-quality solutions. Beyond coding, I stay active, explore new technologies, and contribute to open-source projects`;
 
@@ -17,6 +18,13 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "Podwave AI",
+    image: project4,
+    description: "PodCraft AI is a revolutionary AI SaaS platform that empowers users to effortlessly create, discover, and enjoy podcasts. Leveraging advanced AI technology, PodCraft AI offers intuitive tools for seamless podcast production and playback. Experience the future of podcasting with PodCraft AI.",
+    technologies: ["Next.JS", "Typescript", "Convex", "Open AI","Clerk","ShadCN","TailwindCSS"],
+    link: "https://podwave-ai.vercel.app/sign-in"
+  },
   {
     title: "Tune-Hub",
     image: project1,
@@ -38,6 +46,8 @@ export const PROJECTS = [
     technologies: ["React.js", "HTML", "CSS"],
     link: "https://tictactoe-xox-game.netlify.app"
   },
+  
+
 ];
 
 
